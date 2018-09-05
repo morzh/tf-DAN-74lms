@@ -12,12 +12,13 @@ import shutil
 from distutils.dir_util import copy_tree
 
 
+'''
 resume_path = '/model'
 
 if os.path.exists(resume_path):
     # shutil.copytree(resume_path, '/output')
     copy_tree(resume_path, '/output')
-
+'''
 
 
 class VGG16Model(dan_model.Model):
